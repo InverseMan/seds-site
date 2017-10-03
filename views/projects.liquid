@@ -1,0 +1,69 @@
+{% layout 'default' %}
+
+{% case project %}
+  {% when 'rgx' %}
+     {% assign rgxShow = ' show active' %}
+     {% assign sbxShow = '' %}
+     {% assign aisShow = '' %}
+     {% assign msatShow = '' %}
+  {% when 'sbx' %}
+     {% assign rgxShow = '' %}
+     {% assign sbxShow = ' show active' %}
+     {% assign aisShow = '' %}
+     {% assign msatShow = '' %}
+  {% when 'ais' %}
+     {% assign rgxShow = '' %}
+     {% assign sbxShow = '' %}
+     {% assign aisShow = ' show active' %}
+     {% assign msatShow = '' %}
+  {% when 'msat' %}
+     {% assign rgxShow = '' %}
+     {% assign sbxShow = '' %}
+     {% assign aisShow = '' %}
+     {% assign msatShow = ' show active' %}
+  {% else %}
+     {% assign rgxShow = ' show active' %}
+     {% assign sbxShow = '' %}
+     {% assign aisShow = '' %}
+     {% assign msatShow = '' %}
+{% endcase %}
+
+
+{% block %}
+
+{% include 'small-nav' %}
+
+<div class="row">
+	<div class="col-md-2">
+		<ul class="nav flex-column" role="tablist">
+			<li class="nav-item m-1">
+				<a class="nav-link btn btn-lg btn-outline-danger{{rgxShow}}" id="rgx-tab" data-toggle="tab" href="#rgx" role="tab">CAN-RGX</a>
+			</li>
+			<li class="nav-item m-1">
+				<a class="nav-link btn btn-lg btn-outline-danger{{sbxShow}}" id="sbx-tab" data-toggle="tab" href="#sbx" role="tab">CAN-SBX</a>
+			</li>
+			<li class="nav-item m-1">
+				<a class="nav-link btn btn-lg btn-outline-danger{{aisShow}}" id="ais-tab" data-toggle="tab" href="#ais" role="tab">Act-In-Space</a>
+			</li>
+			<li class="nav-item m-1">
+				<a class="nav-link btn btn-lg btn-outline-danger{{msatShow}}" id="msat-tab" data-toggle="tab" href="#msat" role="tab">MarsSat</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-10 tab-content">
+		<div class="tab-pane fade{{ rgxShow }}" id="rgx" role="tabpanel">
+			{% include 'rgx' %}
+		</div>
+		<div class="tab-pane fade{{ sbxShow }}" id="sbx" role="tabpanel">
+			{% include 'sbx' %}
+		</div>
+		<div class="tab-pane fade{{ aisShow }}" id="ais" role="tabpanel">
+			{% include 'ais' %}
+		</div>
+		<div class="tab-pane fade{{ msatShow }}" id="msat" role="tabpanel">
+			{% include 'msat' %}
+		</div>
+	</div>
+</div>
+
+{% endblock %}

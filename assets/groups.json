@@ -1,0 +1,61 @@
+{
+	"partners": [
+		{
+			"name": "University of Saskatchewan Space Design Team (USST)",
+			"image": "usstlogo.svg",
+			"description": "The University of Saskatchewan Space Design Team (USST) is a student-run enterprise based at the University of Saskatchewan. The team is a multi-disciplinary group that focuses on providing engineering and interdisciplinary collaboration experience to members through participation in space related projects. These projects have included Microgravity Research through SEDS-Canada's Can-RGX competition in addition to building Space Elevators, Nano Satellites, Mars Rovers, and High Altitude Balloons for international competitions. The USST founded and hosted Canada's first rover competition, the Canadian International Rover Challenge (CIRC), with great success in 2017 and has begun to create an annual event.",
+			"site": "www.USST.ca"
+		},
+		{
+			"name": "Astronomy & Space Exploration Society",
+			"image": "asxlogo.png",
+			"description": "The Astronomy & Space Exploration Society’s goal is to educate, excite, and inspire students and the general public about astronomy and space!",
+			"site": "https://www.facebook.com/ASXSociety/"
+		},
+		{
+			"name": "University of Toronto Aerospace Team",
+			"image": "utatlogo.png",
+			"description": "The University of Toronto Aerospace Team is now the largest student design team at the University of Toronto. We engage nearly 100 active undergraduate and graduates students within the Faculty of Applied Science and Engineering, the Faculty of Arts & Science, and the Faculty of Medicine. Each year, our team competes in 5 national and international competitions, hosts an annual aerospace-themed conference, a high-school engineering design competition, and numerous external and internal community outreach initiatives.. All of our competitions and activities are done in pursuit of our mission statement: UTAT is committed to providing a venue for all members to challenge themselves and further their development in a competitive and social environment.",
+			"site": "http://utat.skule.ca/"
+		},
+		{
+			"name": "McMaster Observatory Outreach at Night (MOON) Club",
+			"image": "moonlogo.jpg",
+			"description": "With MOON, you can learn more about astronomy by trekking out at night to stargaze, view different planets and celestial objects, and catch some meteor showers in a collective environment with other students. So don’t worry about stargazing all alone at night. We have a buddy system to ensure you get home safely! Whether a night sky novice or guru, everyone is welcome!",
+			"site": "https://www.facebook.com/groups/McMasterMoon/"
+		},
+		{
+			"name": "ISSET-S",
+			"image": "isset.png",
+			"description": "ISSET Is a student group at the Institute for Space Science, Exploration and Technology, part of the University of Alberta.",
+			"site": ""
+		},
+		{
+			"name": "McGill Students' Astronomy Club",
+			"image": "msac.png",
+			"description": "At McGill, we have integrated the SEDS organization as a part of the McGill Student’s Astronomy Club (MSAC). In doing this, many of the events we hold are promoted under both organizations. MSAC and SEDS run regular ‘Astrotalks’, whereby a professor, or student working in a space-related field presents on their work or research. Furthermore, to appeal to the astronomy hobbyists, our group holds regular star gazing events. Ultimately, our mission is to promote Astronomy and Aerospace Engineering on campus and in the wider McGill community.",
+			"site": "https://www.facebook.com/McGillAstroClub/"
+		},
+		{
+			"name": "Astronomy and Space Exploration Society",
+			"image": "asx.png",
+			"description": "The Astronomy & Space Exploration Society’s goal is to educate, excite, and inspire students and the general public about astronomy and space!",
+			"site": "https://www.facebook.com/ASXSociety/"
+		},
+		{
+			"name": "Victoria SEDS",
+			"image": "vicseds.jpg",
+			"description": "Victoria SEDS is a chapter of 15 high school, undergraduate and graduate students based out of the University of Victoria in Victoria, British Columbia. Our students collaborate closely with the UVic Observatory, the UVic Rocketry Team and the Planetary Society- Vancouver Island to host space outreach events for community members. Our location in the BC capital and proximity to West Coast aerospace industries gives us a unique vantage point to influence the development of space. The goal is to make humanity a space-faring civilization; we do this by providing professional development, networking and community outreach opportunities for members. We also provide fun opportunities to meet others interested in space. General meetings are hosted every Thursday evening at the UVic Observatory (Bob-Wright Center, 5th Floor). To get in touch email Nat at victoria@seds.ca. Our ultimate goal is to make humanity a space-faring civilization. All individuals with an interest in this are welcome to join- our members come from all majors and education levels. We work to improve Canada’s space industry by developing personal competencies, offering networking opportunities and performing community outreach. Public speaking, coop support and networking workshops are just some of the events offered for members. Professional competencies are developed by peer mentorship at all levels of study (primary/secondary, undergraduate, graduate and post-graduate) with an emphasis then placed on giving back to the community.",
+			"site": "https://www.facebook.com/Victoria-SEDS-126640607781284/"
+		}
+
+	],
+	"chapters": [
+		{
+			"name": "",
+			"image": "",
+			"description": "",
+			"site": ""
+		}
+	]
+}

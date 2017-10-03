@@ -1,0 +1,44 @@
+{
+	"articles" : [
+		{
+			"title": "Canadian Stratospheric Balloon Experiment Announcement",
+			"date": "21/09/17",
+			"author": "Robert Nagle - Project Manager",
+			"image": "",
+			"lead": "The Canadian Stratospheric Balloon Experiment Design Challenge (CAN-SBX) is a competition for Canadian post-secondary students to design and test small scientific experiments to fly on board a High-Altitude Balloon provided by the Canadian Space Agency.",
+			"content": "Letters of Intent due: Friday October 13th, 2017<br /><br />The Canadian Stratospheric Balloon Experiment Design Challenge (CAN-SBX) is a competition for Canadian post-secondary students to design and test small scientific experiments to fly on board a High-Altitude Balloon provided by the Canadian Space Agency. Any student team at a Canadian university or college may submit a proposal for their experiment and after careful consideration 2 teams will be selected to fully design, build and fly their experiments. The CAN-SBX Request for Proposals document can be found here.  Letters of Intent will be due Friday October 13th, 2017.<br /><br />Questions: <a href='mailto:can-sbx@seds.ca' class='text-danger'>can-sbx@seds.ca</a>"
+		},
+		{
+			"title": "Satellites Around Mars: What Will It Take?",
+			"date": "20/09/17",
+			"author": "Elise Harrington - Vice Chair",
+			"image": "",
+			"lead": "",
+			"content": "Team registration deadline: Friday, October 6 2017<br /><br />Mars is among the next frontiers for human exploration. From Elon Musk’s stated desire to end his days on the red planet, to the Mars One campaign to send astronauts on a one-way journey there, the anticipation surrounding a human Mars mission has never been higher. To support eventual colonization and human settlements (including robot landers before them), our first step is to put communication relay satellites in orbit. While satellites are a well-established technology, getting them to, and operating them on another planet is a great challenge. Your goal in this competition is to fully outline a plan for a satellite communications system around Mars, from today to the first human colony in 20 years.<br /><br />Register by sending your team members’ names, email addresses, and university to <a href='mailto:MarsSat@seds.ca' class='text-danger'>MarsSat@seds.ca</a> by Friday October 6th.<br />More information: <a href='/Files/Satellites Around Mars- What Will It Take.pdf' class='text-danger' target='_blank'>here</a>"
+		},
+		{
+			"title": "SEDS Canada is on Discord",
+			"date": "27/07/17",
+			"author": "Nicolas Lehman - Chair",
+			"image": "/images/Discord - Feature.png",
+			"lead": "",
+			"content": "We're opening the door to our new community server! Be the first to find out about events and opportunities at SEDS-Canada, our chapters, and our partners! Chat with students from across the country who are just as enthusiastic as you about space!<br /><a href='https://discord.gg/aMyGDkm' class='text-danger'>https://discord.gg/aMyGDkm</a>"
+		},
+		{
+			"title": "Canadian University Students Set to Test Their Experiments in Microgravity",
+			"date": "07/06/17",
+			"author": "Sara Mazrouei - Director of Communications",
+			"image": "/images/can-rgx.png",
+			"lead": "",
+			"content": "Toronto, ON - Four university teams are set to compete with their out-of-this-world initiatives, as part of the Canadian Reduced Gravity Experiment Design Challenge (CAN-RGX). Two teams are focusing their tests on space mining, while the other two experiment with 3D printing in space. Results of such research will help in extracting resources, as well as building and refueling spacecraft outside of the Earth’s orbit. These experiments are crucial in advancing technologies that are required for establishing a permanent human base in space. The CAN-RGX is hosted by the Students for the Exploration and Development of Space (SEDS-Canada), and in collaboration with the Canadian Space Agency (CSA) and the National Research Council of Canada (NRC).<br /><br />This year’s competition ends in late July 2017, culminating in the long-awaited flight campaign to be held at the NRC Flight Research Laboratory. The four teams involved are: Team AVAIL (University of Toronto Institute of Aerospace Studies), Team COSM (Carleton University, Mechanical and Aerospace Engineering), Team iSSELab (University of Alberta, Interfacial Science and Surface Engineering Lab), and Team STARFOX (University of Saskatchewan Space Design Team). More information on the teams and their experiments can be found <a href='can-rgx' class='text-danger'>here</a>.<br /><br />'I have been extremely impressed by this year’s teams and the results of their labour throughout the competition. For me, this competition is all about bolstering Canada’s capabilities in microgravity sciences and I think our inaugural CAN-RGX challenge has certainly held up to that mandate.' says CAN-RGX Project Manager Roxy Fournier about the competition’s progress.<br /><br />SEDS-Canada will be presenting the latest progress and results of this challenge at various international conferences this year. 'We are scheduled to present the technical briefings of our successful collaboration with the CSA and the NRC at the International Space Station Research and Development Conference in Washington D.C., and the International Astronautical Congress in Adelaide, Australia. This is an opportunity to put SEDS-Canada’s initiative on the radar of distinguished microgravity science experts and representatives from the space industry, and to obtain feedback from international delegates' says Elias Solorzano, Former Chair at SEDS-Canada and graduate student at the University of Toronto. CAN-RGX encourages post-secondary students from across Canada to fully design, build, and test a small experiment to be flown in the microgravity environment of parabolic flight, similar to the experiments done at the International Space Station. Students from all backgrounds and disciplines are encouraged to apply, including those outside engineering or aerospace faculties."
+		},
+		{
+			"title": "",
+			"date": "",
+			"author": "",
+			"image": "",
+			"lead": "",
+			"content": ""
+		}
+	]
+}

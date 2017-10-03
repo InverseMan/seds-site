@@ -1,0 +1,153 @@
+{
+	"directors": [
+		{
+			"position": "Chair",
+			"name": "Nicolas Lehman",
+			"image": "Nicolas.jpg",
+			"email": "chair@seds.ca",
+			"about": "Nicolas is studying Computer Engineering at McMaster University. He is passionate about developing Robots and Human Interface Devices for facilitating space exploration. He is very excited to foster the growth of space interest and advocacy groups at as many educational institutions as possible to help bring Canada to the forefront of space exploration."
+		},
+		{
+			"position": "Vice Chair",
+			"name": "Elise Harrington",
+			"image": "Elise.jpeg",
+			"email": "vice-chair@seds.ca",
+			"about": "Elise is an M.Sc. student in Earth and Planetary Sciences at the University of Western Ontario.  From imaging Mars, studying the mountains and channels on Venus, determining the compositions of meteorites, and using satellite-borne radar in the Canadian Arctic, she is passionate about all aspects of planetary geology. Elise aims to promote student opportunities for planetary mission work in Canada."
+		},
+		{
+			"position": "Secretary",
+			"name": "Adam Sniderman",
+			"image": "Adam.png",
+			"email": "secretary@seds.ca",
+			"about": "Adam holds a Bachelor of Applied Science in Mathematics and Engineering from Queen’s University, and is currently pursuing a Ph.D. in Aerospace Engineering and Robotics at the University of Toronto. He is excited to help students engage with the wider space community, and to help foster the next generation of Canadian advances in space exploration and technologies."
+		},
+		{
+			"position": "Director of Advocacy",
+			"name": "Hira Nadeem",
+			"image": "Hira.jpg",
+			"email": "advocacy@seds.ca",
+			"about": "Hira Nadeem is a third year electrical engineering student at McMaster University. She is passionate about exploring the cosmos and inspiring youth to grow Canada's space sector. She dreams to send something beyond our atmosphere someday."
+		},
+		{
+			"position": "Director of Communications",
+			"name": "Sara Mazrouei",
+			"image": "Sara.jpg",
+			"email": "communications@seds.ca",
+			"about": "Sara is a PhD candidate in planetary geology at the University of Toronto. She holds a BSc and MSc in Space Science from York University. Her main interests are planetary and space science and exploration. Sara is an advocate for women in STEM and is very passionate about making science and space more accessible to the public."
+		},
+		{
+			"position": "Director of Finance",
+			"name": "Harsh Bansal",
+			"image": "Harsh.png",
+			"email": "finance@seds.ca",
+			"about": "Harsh is currently studying for an undergraduate major in Physics and minor in Economics at McMaster University and has a deep passion for astronomy and astrophysics. He wishes to educate others about ongoings within the space related industries and academia and how they can contribute to advance space development and research."
+		},
+		{
+			"position": "Director of Membership",
+			"name": "Kimberly Lai",
+			"image": "Kim.jpg",
+			"email": "membership@seds.ca",
+			"about": "Kimberly is currently an Engineering Science student at the University of Toronto, specialising in Aerospace Engineering. She is excited about spreading enthusiasm and generating interest in space exploration and development in Canada."
+		}
+	],
+	"staff": [
+		{
+			"position": "Research Projects Manager",
+			"name": "Roxanne Fournier",
+			"image": "Roxy.jpg",
+			"email": "research-pm@seds.ca",
+			"about": "Roxy holds a Bachelor’s degree in Molecular and Cell Biology from the University of Victoria and is currently pursuing a PhD in Cell & Systems Biology at the University of Toronto. Her research involves designing a better ground-based platform for studying living cells in simulated microgravity. As Project Manager for the CAN-RGX Challenge, she hopes to support student participants to ensure a successful flight and encourage as many students as possible to pursue careers in space exploration."
+		},
+		{
+			"position": "Social-Media Team",
+			"name": "Raras Azzahra",
+			"image": "Raras.png",
+			"email": "social-media@seds.ca",
+			"about": "Raras is pursuing her Bachelor’s degree in Communication, Culture, Information, and Technology (CCIT) and Sociology at the University of Toronto, along with a Professional Writing minor. As part of the Social Media and Publicity Team, Raras hopes to connect students who are passionate about space and facilitate their conversations regarding the future of space exploration."
+		},
+		{
+			"position": "Space Opportunities Officer",
+			"name": "Linda Dao",
+			"image": "Linda.jpg",
+			"email": "spaceorb@seds.ca",
+			"about": "With a B.Sc in Biochemistry and Biomedical Sciences and a Minor in French Studies from McMaster University, Linda is pursuing her Masters of Space Studies at the International Space University. As Education Officer, she aims to find space-related opportunities for Canadian students. Linda enjoys astrophotography, television, playing the trumpet, and building unique balloon animals."
+		},
+		{
+			"position": "Entrepeneurship Projects Manager",
+			"name": "Aditya Patel",
+			"image": "Aditya.png",
+			"email": "entrepeneurship-pm@seds.ca",
+			"about": "I have always been passionate about Aerospace. I came to to Canada to attend University of Toronto a year ago. I completed my Bachelor in Mechanical Engineering from a state university in India. I am currently pursuing my Masters of Engineering in Aerospace at University of Toronto. The passion for aerospace and dream of working in this growing industry has always appealed to me. I feel that I have always been ahead of the crowd with volunteering and managing teams for various events throughout my student life. I hope that my experience as Alumni Ambassador at University of Toronto will help me create connections between potential student innovators and stake holders in the aerospace industry."
+		},
+		{
+			"position": "Social-Media Team",
+			"name": "Alicia Hobmaier",
+			"image": "Alicia.jpg",
+			"email": "social-media@seds.ca",
+			"about": "Alicia is a Calgarian high school student with a passion for science and space. She is currently studying in the International Baccalaureate Program. Through the Social Media & Publicity Team, she aims to share her enthusiasm for space with students all across the country and incite thoughtful discussion amongst them."
+		},
+		{
+			"position": "Graphics Team",
+			"name": "Mohamed Khalil",
+			"image": "Mohamed.jpg",
+			"email": "graphics@seds.ca",
+			"about": "Mohamed is an Engineering Science student at the University of Toronto, specializing in Aerospace Engineering and minoring in Engineering Business. He is a member of the rocketry division at the University of Toronto Aerospace Team (UTAT), and he co-founded an aerospace design group called AUREUS. He likes all things that fly (maybe not the Airbus Beluga), and enjoys graphic design, music production and soccer."
+		},
+		{
+			"position": "Graphics Team",
+			"name": "Ronan Garrison",
+			"image": "Ronan.jpg",
+			"email": "graphics@seds.ca",
+			"about": "Ronan is currently studying Engineering Physics at McMaster University. He has a keen interest in product design for multi-planetary space exploration. In addition, Ronan aspires to assist space missions with optic and photovoltaic systems. Working with the graphics team, he helps to bridge the gap between the public and the space industry through design and communication through social media platforms."
+		},
+		{
+			"position": "Alumni Relations Coordinators",
+			"name": "Dan Lipworth",
+			"image": "Dan.jpg",
+			"email": "alumni@seds.ca",
+			"about": "Dan holds a business degree from Wilfrid Laurier University and is currently pursuing a B.Eng. in Biological Engineering at the University of Guelph. He is also the VP External of the Ryerson Space Society, a chapter of SEDS-Canada. A lifelong commercial space advocate, Dan is working to create a viable network of SEDS Alumni and others to connect like-minded individuals within the Canadian space community, and to connect them with future graduates in fields applicable to the growing Canadian commercial space sector."
+		}
+	],
+	"advisors": [
+		{
+			"name": "James Slifierz",
+			"image": "James.jpg",
+			"about": "James is the Co-Founder and CEO at SkyWatch Space Applications. He is also a Co-Founder and Chair of MaxQ, Canada's first accelerator focused on space startups, and the Lead Organizer for NASA Space Apps Waterloo. In 2014 James was a part of the team that won the NASA International Space Apps Challenge, beating out over 650 other projects. He's a Google for Entrepreneurs alumnus and a member of the International Astronomical Union's Working Group on Time-Domain Astronomy, the Association of Canadian Universities for Research in Astronomy, and the Canadian Space Commerce Association. Every Wednesday he publishes This Week in Space, a weekly newsletter covering the biggest stories in space & astronomy. James is on a mission to build Canada's space industry back into a global leader."
+		},
+		{
+			"name": "Eric Choi",
+			"image": "Eric.jpg",
+			"about": "Eric Choi is the senior business development manager for the space business unit of Magellan Aerospace with responsibility for leading efforts to develop new space project opportunities. Over the course of his career, he has held positions of increasing technical and managerial responsibility in both the aviation and space sectors, the latter encompassing work on the Meteorology (MET) payload on the Phoenix Mars Lander, the Mobile Servicing System robotics on the International Space Station, the RADARSAT-1 Earth-observation satellite and the MOPITT (Measurements of Pollution on the Troposphere) instrument on the Terra satellite. He holds a bachelor’s degree in engineering science and a master’s degree in aerospace engineering from the University of Toronto and an MBA from York University, and he is an alumnus of the International Space University. In addition to his aerospace career, he is also a multiple award-winning writer and editor."
+		},
+		{
+			"name": "Dr. David Kendall",
+			"image": "David.jpg",
+			"about": "Dr. Kendall is the current Chair of the United Nations Committee on the Peaceful Uses of Outer Space for 2016-2017.  During his career he has held senior positions with the Canadian Space Agency including as the Director General of Space Science and Space Science and Technology. He is also a faculty member of the International Space University based in Strasbourg, France. Born near London, England, Dr. Kendall obtained his doctoral degree in Atmospheric Physics from the University of Calgary. After his PhD he worked in private industry as an R&D scientist and then for the Canadian federal government, first with the National Research Council of Canada and later, with the newly created Canadian Space Agency. Dr. Kendall is an academician of the International Academy of Astronautics (IAA) and, during his career, has acted in various capacities on a number of national and international bodies, including the International Space University, the International Astronautical Federation, the Committee on Space Research (COSPAR), UN COPUOS, the European Space Agency, IADC, and the Group on Earth Observations.  He is especially pleased to be a member of the Board of Advisors of SEDS-Canada. In 2002, Dr. Kendall was awarded the Queen Elizabeth II Golden Jubilee Medal in recognition of his significant contributions and achievement to Canada."
+		},
+		{
+			"name": "Dr. Gordon 'Oz' Osinski",
+			"image": "Oz.jpg",
+			"about": "Dr. Gordon “Oz” Osinski is an Associate Professor and the NSERC/MDA /CSA/CEMI Industrial Research Chair in Earth and Space Exploration in the Departments of Earth Sciences and Physics and Astronomy at the University of Western Ontario, Canada. He holds a PhD from the University of New Brunswick (2004) and a BSc (Hons) from the University of St. Andrews (1999), Scotland, both in Geology. Dr. Osinski’s research interests are diverse and interdisciplinary in nature. His main area of research focuses on understanding impact cratering as a planetary geological process, on the Earth, Moon and Mars. His research interests also include the development of exploration technologies and techniques for application in remote and extreme environments both on Earth and in Space. Dr. Osinski is the Director of the Centre for Planetary Science and Exploration (http://cpsx.uwo.ca) at Western, the Principal Investigator of the Canadian Lunar Research Network (http://clrn.uwo.ca), and the founder and Chair of the Planetary Sciences Division of the Geological Association of Canada (http://uwo.ca/earth/GACPSD/). He is also a Co-I on the PanCam instrument on the 2020 ExoMars mission to Mars."
+		},
+				{
+			"name": "Ryan Anderson",
+			"image": "Ryan.jpg",
+			"about": "Ryan is the founder and Director of Satellite Systems of QShift Inc. a federal corporation providing space and satcom systems consulting services to the Department of National Defence and other clients. QShift is also leading research and development in advanced space and satcom technologies. A professional engineer with over 10 years’ experience, Ryan has worked on dozens of satellite programs spanning design, development, procurement and operations. Most notably, as lead of Telesat’s innovation program, Ryan was instrumental in the development of the LEO Vantage constellation, a disruptive approach to delivering satellite communications. Other highlights include work on PCW, Anik F2, Anik G1, Nimiq 6, and Urthecast’s cutting edge OptiSAR constellation. An active member of the local space and engineering communities, in 2010, Ryan founded the Ottawa chapter of the Canadian Space Society (CSS) and served as Chair until 2014. In that role, he organized the Canada On Orbit Gala to mark the 50th Anniversary of the launch of Alouette, organized Yuri’s Night Ottawa events from 2010-2014, and co-chaired the very successful Canadian Space Summit in 2013. Ryan has served on the executive boards for the Canadian Federation for the International Space University, the Canadian Aeronautics and Space Institute Astro 2016 Conference, and as Treasurer for the CSS Ottawa chapter. He volunteered for the National Research Council’s Marsville and Engineering Challenge programs to encourage Canadian students to pursue careers in science and engineering, and served as Crew Engineer on the Mars Desert Research Station. In 2017, Ryan will assume the role of Vice President of the Canadian Space Society in 2017 and continue his role as Advisor to SEDS-Canada."
+		},
+		{
+			"name": "Dr. Marianne Mader",
+			"image": "Marianne.png",
+			"about": "Dr. Marianne Mader is the Managing Director of the Centres for Earth and Space/Fossils and Evolution at the Royal Ontario Museum and is a Visiting Lecturer at the International Space University. She has dedicated her career to sharing her love for space exploration through planetary science research, innovative public engagement, participatory education, and science communication. With over 13 years of field experience, Marianne has studied some of the oldest rocks on Earth in Greenland, explored impact craters across the globe, and collected meteorites in Antarctica. She has collaborated with UWO’s Centre for Planetary Science and Exploration, CSA, NASA, and MDA to plan and execute simulated lunar and planetary exploration missions, Along with Andy Forest, Marianne is the co-founder STEAMLabs, an all-ages community makerspace in downtown Toronto."
+		},
+		{
+			"name": "Dr. Melissa Battler",
+			"image": "Melissa.jpg",
+			"about": "Dr. Melissa Battler is Manager of Space Science and Education/Outreach for Mission Control Space Services Inc., a Postdoctoral Fellow at Western University’s Centre for Planetary Science and Exploration, and a visiting lecturer at the International Space University. She has been a field-team member for eight planetary mission simulations, including as Commander of a four-month Arctic Mars analogue mission, and a mission control team member for five human and robotic simulations with the Canadian Space Agency (CSA), NASA, Western University, and the University of Hawaii, including roles as CapCom, and Science Team member. Most recently, Melissa was Mission Operations Manager for the Western/CSA CanMars 2016 robotic Mars mission simulation. Melissa Battler attained her PhD (Planetary Geology) in 2013 from Western University. She holds an Honours BSc (Earth Sciences) from the University of Waterloo, and both a diploma in University Teaching and an MSc (Geology) from the University of New Brunswick. She co-founded four space advocacy groups (2001 – 2008), was President of Mars Society Canada (2005 – 2007) and was a Canadian Space Agency Student Ambassador for 10 years."
+		},
+		{
+			"name": "Dr. Chris Damaren",
+			"image": "Chris.jpg",
+			"about": "Dr. Chris Damaren was born in Toronto, Ontario, Canada in 1962. He received the BASc in Engineering Science (Aerospace Option) from the University of Toronto in 1985. He went on to receive the MASc and PhD degrees in 1987 and 1990, respectively, both in aerospace engineering from the University of Toronto Institute for Aerospace Studies (UTIAS). From 1990 to 1995 he was an Assistant Professor in the Department of Engineering at Royal Roads Military College in Victoria, British Columbia, Canada. From 1995 to 1999 he was a Senior Lecturer in the Department of Mechanical Engineering at the University of Canterbury in Christchurch, New Zealand. Since 1999 he has been at UTIAS and is currently a Professor and the Director. From 2008 to 2013, he served as the Vice-Dean Graduate Studies for the Faculty of Applied Science and Engineering. His research interests are in the areas of dynamics and control of space systems. He is a Fellow of the Canadian Aeronautics and Space Institute and an Associate Fellow of the American Institute of Aeronautics and Astronautics."
+		}
+	]
+}

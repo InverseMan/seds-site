@@ -1,0 +1,29 @@
+{% layout 'default' %}
+
+
+{% block %}
+
+{% include 'small-nav' %}
+
+<div class="row">
+	<div class="col-md-12" align="center">
+		<p class="display-4">The Latest News from SEDS</p>
+	</div>
+</div>
+
+{% for article in articles.articles%}
+<div class="row">
+	<div class="col-md-3"></div>
+	<div class="col-md-6" align="center">
+		<p class="h2">{{article.title}}</p>
+		{% if article.image != "" %}
+		<img src="{{article.image}}" style="width: 50%;">
+		{% endif %}
+		<p class="text-muted">{{article.author}}</p>
+		<p align="justify">{{article.content}}</p>
+	</div>
+</div>
+<br />
+{% endfor %}
+
+{% endblock %}

@@ -1,0 +1,78 @@
+{% layout 'default' %}
+
+
+{% block %}
+
+{% include 'small-nav' %}
+
+<div class="row" align="center">
+	<div class="col-md-12">
+		<h3 class="display-2">Our People</h3>
+
+		<nav class="nav nav-tabs" id="myTab" role="tablist">
+			<a class="nav-item nav-link active text-danger h5" id="nav-home-tab" data-toggle="tab" href="#nav-directors" role="tab" aria-controls="nav-directors" aria-expanded="true">Directors</a>
+			<a class="nav-item nav-link text-danger h5" id="nav-staff-tab" data-toggle="tab" href="#nav-staff" role="tab" aria-controls="nav-staff">Staff</a>
+			<a class="nav-item nav-link text-danger h5" id="nav-advisors-tab" data-toggle="tab" href="#nav-advisors" role="tab" aria-controls="nav-advisors">Advisors</a>
+		</nav>
+	</div>
+</div>
+
+<br />
+
+<div class="tab-content" id="nav-tabContent">
+	<div class="row tab-pane fade show active" id="nav-directors" role="tabpanel" aria-labelledby="nav-directors-tab">
+		<div class="col-md-12" >
+			<ul class="list-unstyled">
+				{% for person in people.directors %}
+				<li class="media">
+					<img class="d-flex mr-3" src="/images/{{person.image}}" alt="Generic placeholder image" width="200px" height="200px">
+					<div class="media-body">
+						<h5 class="mt-0 mb-1">{{person.position}}: {{person.name}}</h5>
+						<p>{{person.about}}</p>
+						<a href="mailto:{{person.email}}" class="text-muted">{{person.email}}</a>
+					</div>
+				</li>
+				<br />
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+	<div class="row tab-pane fade" id="nav-staff" role="tabpanel" aria-labelledby="nav-staff-tab">
+		<div class="col-md-12">
+			<ul class="list-unstyled">
+				{% for person in people.staff %}
+				<li class="media">
+					<img class="d-flex mr-3" src="/images/{{person.image}}" alt="Generic placeholder image" width="200px" height="200px">
+					<div class="media-body">
+						<h5 class="mt-0 mb-1">{{person.position}}: {{person.name}}</h5>
+						<p>{{person.about}}</p>
+						<a href="mailto:{{person.email}}" class="text-muted">{{person.email}}</a>
+					</div>
+				</li>
+				<br />
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+	<div class="row tab-pane fade" id="nav-advisors" role="tabpanel" aria-labelledby="nav-advisors-tab">
+		<div class="col-md-12">
+			<ul class="list-unstyled">
+				{% for person in people.advisors %}
+				<li class="media">
+					<img class="d-flex mr-3" src="/images/{{person.image}}" alt="Generic placeholder image" width="200px" height="200px">
+					<div class="media-body">
+						<h5 class="mt-0 mb-1">{{person.name}}</h5>
+						<p>{{person.about}}</p>
+					</div>
+				</li>
+				<br />
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+
+</div>
+
+{% endblock %}

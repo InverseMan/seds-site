@@ -1,0 +1,41 @@
+{% layout 'default' %}
+
+{% block %}
+
+{% include 'small-nav' %}
+
+<div class="row" align="center">
+	<div class="col-md-12">
+		<h3 class="display-2">Our Partners</h3>
+
+		<nav class="nav nav-tabs" id="myTab" role="tablist">
+			<a class="nav-item nav-link active text-danger h5" id="nav-partners-tab" data-toggle="tab" href="#nav-partners" role="tab" aria-controls="nav-partners">Partners</a>
+		</nav>
+	</div>
+</div>
+
+<br />
+
+<div class="tab-content" id="nav-tabContent">
+	<div class="row tab-pane fade show active" id="nav-partners" role="tabpanel" aria-labelledby="nav-partners-tab">
+		<div class="row tab-pane fade show active" id="nav-directors" role="tabpanel" aria-labelledby="nav-directors-tab">
+		<div class="col-md-12" >
+			<ul class="list-unstyled">
+				{% for partner in groups.partners %}
+				<li class="media">
+					<img class="d-flex mr-3" src="/images/{{partner.image}}" alt="Generic placeholder image" width="200px" height="200px">
+					<div class="media-body">
+						<h5 class="mt-0 mb-1">{{partner.name}}</h5>
+						<p>{{partner.description}}</p>
+						<a href="mailto:{{partner.site}}" class="text-muted">{{partner.site}}</a>
+					</div>
+				</li>
+				<br />
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+	</div>
+</div>
+
+{% endblock %}

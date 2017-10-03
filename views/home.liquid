@@ -1,0 +1,118 @@
+{% layout 'default' %}
+
+
+{% block %}
+
+{% include 'jumbo-nav' %}
+
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<p class="display-4" align="center">Our Latest Projects</p>
+		<div class="card-deck">
+			<div class="card">
+				<img class="card-img-top" src="/images/can-rgx.png" alt="CAN-RGX" height="163px;">
+				<div class="card-body">
+					<h4 class="card-title">CAN-RGX</h4>
+					<p class="card-text">The reduced gravity experiment challenge is back for its second year!</p>
+					<a href="/can-rgx" class="btn btn-danger">Lean More!</a>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="/images/stratos.jpg" alt="Card image cap" height="163px;">
+				<div class="card-body">
+					<h4 class="card-title">CAN-SBX</h4>
+					<p class="card-text">A new research experiment opportunity! Stratospheric Balloons!</p>
+					<a href="/can-sbx" class="btn btn-danger">Learn More!</a>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="/images/ais-logo-bkgd.png" alt="Act-In-Space" height="163px;">
+				<div class="card-body">
+					<h4 class="card-title">Act In Space</h4>
+					<p class="card-text">A new space entrepeneurship competition comes to Canada!</p>
+					<a href="/act-in-space" class="btn btn-danger">Learn More!</a>
+				</div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="/images/curiosity_mars.jpg" alt="MarsSat" height="163px;">
+				<div class="card-body">
+					<h4 class="card-title">MarsSat</h4>
+					<p class="card-text">Design a solution to the communication issues surrounding Mars settlement!</p>
+					<a href="/marssat" class="btn btn-danger">Learn More!</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-1"></div>
+</div>
+
+<br>
+
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<div class="card text-center">
+			<div class="card-header">
+				Latest News
+			</div>
+			<div class="card-body">
+				<h4 class="card-title">{{article.title}}</h4>
+				<p class="card-text">{{article.lead}}</p>
+				<a href="/news" class="btn btn-primary">Read More</a>
+			</div>
+			<div class="card-footer text-muted">
+				{{article.date}}
+			</div>
+		</div>
+	</div>
+</div>
+
+<br />
+
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<h3 class="display-4" align="center">Our Sponsors</h3>
+		<div class="card-columns">
+			<div class="card" style="width: 20rem;">
+				<img class="card-img-top p-2" src="/images/nrc.jpg" alt="National Research Council">
+				<div class="card-body" align="center">
+					<h4 class="card-title">Nation Research Council</h4>
+				</div>
+			</div>
+			<div class="card" style="width: 20rem;">
+				<img class="card-img-top p-2" src="/images/css.png" alt="Canadian Space Society">
+				<div class="card-body" align="center">
+					<h4 class="card-title">Canadian Space Society</h4>
+				</div>
+			</div>
+			<div class="card" style="width: 20rem;">
+				<img class="card-img-top p-2" src="/images/csa.png" alt="Canadian Space Agency">
+				<div class="card-body" align="center">
+					<h4 class="card-title">Canadian Space Agency</h4>
+				</div>
+			</div>
+			<div class="card" style="width: 20rem;">
+				<img class="card-img-top p-2" src="/images/UTIAS.png" alt="University of Toronto Institute for Aerospace Studies">
+				<div class="card-body" align="center">
+					<h4 class="card-title">University of Toronto Institute for Aerospace Studies</h4>
+				</div>
+			</div>
+			<div class="card" style="width: 20rem;">
+				<img class="card-img-top p-2" src="/images/MDA.jpg" alt="MDA">
+				<div class="card-body" align="center">
+					<h4 class="card-title">MDA</h4>
+				</div>
+			</div>
+			<div class="card" style="width: 20rem;">
+				<img class="card-img-top p-2" src="/images/canadensys.png" alt="Canadensys">
+				<div class="card-body" align="center">
+					<h4 class="card-title">Canadensys</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}

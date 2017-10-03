@@ -1,0 +1,23 @@
+{
+  "name": "simple-test",
+  "version": "1.0.0",
+  "description": "Basic SEDS site test",
+  "main": "controller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Lehman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "bootstrap": "^4.0.0-beta",
+    "eris": "^0.7.2",
+    "express": "^4.15.4",
+    "express-session": "^1.13.0",
+    "liquidjs": "^1.9.5",
+    "mongodb": "^2.2.31",
+    "passport": "^0.3.2",
+    "passport-discord": "^0.1.2",
+    "stripe": "^5.0.0"
+  }
+}

@@ -1,0 +1,50 @@
+{% layout 'default' %}
+
+
+{% block %}
+
+{% include 'small-nav' %}
+
+<div class="row">
+	<div class="col-md-2">
+		<ul class="nav flex-column" role="tablist">
+			<li class="nav-item m-1">
+				<a class="nav-link btn btn-lg btn-outline-danger active" id="18-tab" data-toggle="tab" href="#18" role="tab">Ascension 2018</a>
+			</li>
+			<li class="nav-item m-1">
+				<a class="nav-link btn btn-lg btn-outline-danger" id="17-tab" data-toggle="tab" href="#17" role="tab">Ascension 2017</a>
+			</li>
+			<li class="nav-item m-1">
+				<a class="nav-link btn btn-lg btn-outline-danger" id="16-tab" data-toggle="tab" href="#16" role="tab">Ascension 2016</a>
+			</li>
+		</ul>
+	</div>
+	<div class="col-md-10 tab-content">
+		<div class="tab-pane fade show active" id="18" role="tabpanel">
+			<p class="display-3">Ascension 2018</p>
+			<p class="lead">Info Coming Soon<sup>TM</sup></p>
+		</div>
+		<div class="tab-pane fade" id="17" role="tabpanel">
+			<p class="display-3">Ascension 2017</p>
+			<p class="lead">Hosted by the University of Toronto Aerospace Team at the University of Toronto</p>
+			<p class="lead">80+ Attendees - 18 Speakers - 1 Venue</p>
+			<br />
+			<p>This year's theme was Beyond Earth, we'll be looking outward from our pale blue dot to the inner solar system and the possibilities it holds. Sessions covered space technology, space business, human space physiology, analog testing, and education and outreach.</p>
+			<img src="/images/Ascension-17.jpg">
+		</div>
+		<div class="tab-pane fade" id="16" role="tabpanel">
+			<p class="display-3">Ascension 2016</p>
+			<p class="lead">Hosted By the Space Society of London at the University of Western Ontario</p>
+			<p class="lead">19 Speakers - 60 Attendees - 1 Venue</p>
+			<br />
+			<p>Our two-day conference was packed with talks and opportunities for students to interact with peers and speakers. Competition finals took place on Saturday and winners were announced at our SEDS Saturday Social at the Fox and Fiddle.</p>
+
+			<p>Right after the close of Saturday's events and before the social event, Earth Sciences Adjunct Research Professor Dr. Livio Tornabene (a veteran HiRISE Science team member) lead a tour of the new CPSX mission control facility for HiRISE.</p>
+
+			<p>Sunday included the Young Space Leaders Roundtable and elections for the 2016-2017 Board of Directors.</p>
+			<img src="/images/Ascension_2016.jpg">
+		</div>
+	</div>
+</div>
+
+{% endblock %}

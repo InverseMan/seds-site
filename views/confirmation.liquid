@@ -1,0 +1,22 @@
+{% layout 'default' %}
+
+
+{% block %}
+
+{% include 'small-nav' %}
+
+<div class="row">
+	<div class="col-md-1"></div>
+	<div class="col-md-10">
+		<p class="display-4">Payment Confirmation</p>
+
+		{% if error != null %}
+		<p class="lead">Payment Successful, thank you for joining SEDS!</p>
+		{% else %}
+		<p class="lead">An Error Occured: {{error}}</p>
+		{% endif %}
+
+	</div>
+</div>
+
+{% endblock %}
