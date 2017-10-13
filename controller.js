@@ -229,6 +229,12 @@ app.get('/missing-role', (req, res) => {
 	});
 });
 
+app.get('/man-made-martians', (req, res) => {
+	res.render('man-made-martians', {
+		title: 'Man Made Martians'
+	});
+});
+
 //Stripe payments
 app.post('/checkout', (req, res) => {
 	var token = req.body.stripeToken;
@@ -248,6 +254,12 @@ app.post('/checkout', (req, res) => {
 });
 
 //Shoule make a quick 404 page
+app.use((req, res) => {
+	res.status(404);
+	res.render('404', {
+		title: '404'
+	});
+});
 
 //Contact Us?
 

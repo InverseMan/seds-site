@@ -1,6 +1,14 @@
 {
 	"articles" : [
 		{
+			"title": "The First of Eight Man-Made Martians",
+			"date": "12/10/17",
+			"author": "Alicia Hobmaier",
+			"image": "",
+			"lead": "Once, humans only knew Mars as a blip that transited the night sky. Now we know it to be a planet with a population of its own; eight man-made spacecraft, each with a harrowing tale of aspiration, adventure, and achievement. With attention on the Red Planet at an all time high, what better time to learn the stories behind its operational inhabitants?",
+			"content": "Once, humans only knew Mars as a blip that transited the night sky. Now we know it to be a planet with a population of its own; eight man-made spacecraft, each with a harrowing tale of aspiration, adventure, and achievement. With attention on the Red Planet at an all time high, what better time to learn the stories behind its operational inhabitants?<br ><a class='text-danger' href='man-made-martians'>Read the full story here!</a>"
+		},
+		{
 			"title": "Canadian Stratospheric Balloon Experiment Announcement",
 			"date": "21/09/17",
 			"author": "Robert Nagle - Project Manager",
