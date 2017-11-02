@@ -50,7 +50,7 @@ function getNews () {
 		if (err)
 			return console.log(err);
 		var db = database;
-		db.collection('news').sort({date : -1}).find().toArray(function(err, results) {
+		db.collection('news').find().toArray(function(err, results) {
 			articles = results;
 		});
 	});
