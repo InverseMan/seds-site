@@ -44,15 +44,17 @@ app.use('/files', Express.static('Files'));
 var people = require("./assets/people.json");
 var groups = require("./assets/groups.json");
 
-var articles
-MongoClient.connect(url, (err, database) => {
-	if (err)
-		return console.log(err);
-  	var db = database;
-	db.collection('news').find().toArray(function(err, results) {
-  		articles = results;
+function getNews () {
+	MongoClient.connect(url, (err, database) => {
+		if (err)
+			return console.log(err);
+		var db = database;
+		db.collection('news').find().toArray(function(err, results) {
+			articles = results;
+		});
 	});
-});
+	return articles;
+}
 
 //setup passport
 passport.serializeUser(function(user, done) {
@@ -127,6 +129,7 @@ async function checkRoles(userid) {
 
 //Home page
 app.get('/', (req, res) => {
+	var articles = getNews();
 	res.render('home', {
 		title: 'SEDS Canada',
 		article: articles[0]
@@ -211,6 +214,7 @@ app.get('/partners', (req, res) => {
 
 //News page
 app.get('/news', (req, res) => {
+	var articles = getNews();
 	res.render('news', {
 		title: 'SEDS Canada News',
 		articles: articles
@@ -268,15 +272,15 @@ app.post('/submit-news', (req, res) => {
 	MongoClient.connect(url, (err, database) => {
 		if (err)
 			return console.log(err);
-  		var db = database;
+		var db = database;
 
-  		db.collection('news').save(req.body, (err, result) => {
-    		if (err) 
-    			return console.log(err);
+		db.collection('news').save(req.body, (err, result) => {
+			if (err) 
+				return console.log(err);
 
-    		console.log(req.body);
-    		res.redirect('/');
-    	});
+			console.log(req.body);
+			res.redirect('/');
+		});
 	});
 });
 
