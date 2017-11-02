@@ -1,5 +1,4 @@
-{
-	"articles" : [
+
 		{
 			"title": "The First of Eight Man-Made Martians",
 			"date": "12/10/17",
@@ -39,14 +38,4 @@
 			"image": "/images/can-rgx.png",
 			"lead": "",
 			"content": "Toronto, ON - Four university teams are set to compete with their out-of-this-world initiatives, as part of the Canadian Reduced Gravity Experiment Design Challenge (CAN-RGX). Two teams are focusing their tests on space mining, while the other two experiment with 3D printing in space. Results of such research will help in extracting resources, as well as building and refueling spacecraft outside of the Earth’s orbit. These experiments are crucial in advancing technologies that are required for establishing a permanent human base in space. The CAN-RGX is hosted by the Students for the Exploration and Development of Space (SEDS-Canada), and in collaboration with the Canadian Space Agency (CSA) and the National Research Council of Canada (NRC).<br /><br />This year’s competition ends in late July 2017, culminating in the long-awaited flight campaign to be held at the NRC Flight Research Laboratory. The four teams involved are: Team AVAIL (University of Toronto Institute of Aerospace Studies), Team COSM (Carleton University, Mechanical and Aerospace Engineering), Team iSSELab (University of Alberta, Interfacial Science and Surface Engineering Lab), and Team STARFOX (University of Saskatchewan Space Design Team). More information on the teams and their experiments can be found <a href='can-rgx' class='text-danger'>here</a>.<br /><br />'I have been extremely impressed by this year’s teams and the results of their labour throughout the competition. For me, this competition is all about bolstering Canada’s capabilities in microgravity sciences and I think our inaugural CAN-RGX challenge has certainly held up to that mandate.' says CAN-RGX Project Manager Roxy Fournier about the competition’s progress.<br /><br />SEDS-Canada will be presenting the latest progress and results of this challenge at various international conferences this year. 'We are scheduled to present the technical briefings of our successful collaboration with the CSA and the NRC at the International Space Station Research and Development Conference in Washington D.C., and the International Astronautical Congress in Adelaide, Australia. This is an opportunity to put SEDS-Canada’s initiative on the radar of distinguished microgravity science experts and representatives from the space industry, and to obtain feedback from international delegates' says Elias Solorzano, Former Chair at SEDS-Canada and graduate student at the University of Toronto. CAN-RGX encourages post-secondary students from across Canada to fully design, build, and test a small experiment to be flown in the microgravity environment of parabolic flight, similar to the experiments done at the International Space Station. Students from all backgrounds and disciplines are encouraged to apply, including those outside engineering or aerospace faculties."
-		},
-		{
-			"title": "",
-			"date": "",
-			"author": "",
-			"image": "",
-			"lead": "",
-			"content": ""
 		}
-	]
-}
