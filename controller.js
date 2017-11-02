@@ -51,9 +51,9 @@ function getNews () {
 		var db = database;
 		db.collection('news').find().toArray(function(err, results) {
 			var articles = results;
+			return articles;
 		});
 	});
-	return articles;
 }
 
 //setup passport
