@@ -131,7 +131,7 @@ async function checkRoles(userid) {
 app.get('/', (req, res) => {
 	res.render('home', {
 		title: 'SEDS Canada',
-		article: articles.articles[0]
+		article: articles[0]
 	});
 });
 
