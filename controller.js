@@ -229,9 +229,9 @@ app.get('/missing-role', (req, res) => {
 	});
 });
 
-app.get('/man-made-martians', (req, res) => {
-	res.render('man-made-martians', {
-		title: 'Man Made Martians'
+app.get('/man-made-martians-2', (req, res) => {
+	res.render('man-made-martians-2', {
+		title: 'Man Made Martians-2'
 	});
 });
 
