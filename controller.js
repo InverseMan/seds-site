@@ -7,7 +7,12 @@ var passport = require('passport');
 var Strategy = require('./lib').Strategy;
 var stripe = require("stripe")(config.stripe_sk);
 
-
+//mongodb requirements
+var MongoClient = require('mongodb').MongoClient;
+var assert = require('assert');
+var ObjectId = require('mongodb').ObjectID;
+var url = 'mongodb://localhost:27017/test';
+c
 //discord bot for spaceorb
 var Eris = require('eris');
 var bot = new Eris(config.bot_token, {'restMode': true});
@@ -242,6 +247,16 @@ app.get('/man-made-martians-2', (req, res) => {
 	});
 });
 
+//database related pages and functions
+app.get('/posting' (req, res) => {
+	res.render('db-submit', {
+		title: 'Submission Page'
+	});
+});
+
+//submit new post
+
+
 //Stripe payments
 app.post('/checkout', (req, res) => {
 	var token = req.body.stripeToken;
@@ -260,7 +275,7 @@ app.post('/checkout', (req, res) => {
 
 });
 
-//Shoule make a quick 404 page
+//quick 404 page
 app.use((req, res) => {
 	res.status(404);
 	res.render('404', {
