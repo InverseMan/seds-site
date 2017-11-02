@@ -12,7 +12,7 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var ObjectId = require('mongodb').ObjectID;
 var url = 'mongodb://localhost:27017/test';
-c
+
 //discord bot for spaceorb
 var Eris = require('eris');
 var bot = new Eris(config.bot_token, {'restMode': true});
