@@ -262,11 +262,12 @@ app.post('/submit-news', (req, res) => {
   		var db = database;
 
   		db.collection('news').save(req.body, (err, result) => {
-    	if (err) 
-    		return console.log(err);
+    		if (err) 
+    			return console.log(err);
 
-    	console.log(req.body)
-    	res.redirect('/')
+    		console.log(req.body);
+    		res.redirect('/');
+    	});
 	});
 });
 
