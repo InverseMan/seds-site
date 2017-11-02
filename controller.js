@@ -45,12 +45,14 @@ var people = require("./assets/people.json");
 var groups = require("./assets/groups.json");
 //var articles = require("./assets/news.json");
 
+var articles
 MongoClient.connect(url, (err, database) => {
 	if (err)
 		return console.log(err);
   	var db = database;
 	db.collection('news').find().toArray(function(err, results) {
-  		var articles = results;
+  		articles = results;
+  		console.log(results);
 	});
 });
 
