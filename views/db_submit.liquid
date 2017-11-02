@@ -26,27 +26,27 @@
 				<div class="card">
 					<form class="card-body" action="/submit-news" method="POST">
 						<div class="form-group">
-							<label for="news-title">Title</label>
-							<input type="text" class="form-control" name="news-title" placeholder="SpaceX's Secret Moonbase Exposed">
+							<label for="title">Title</label>
+							<input type="text" class="form-control" name="title" placeholder="title">
 						</div>
 						<div class="form-group">
-							<label for="news-date">Date</label>
-							<input type="text" class="form-control" name="news-date" aria-describedby="dateHelp" placeholder="01/01/0001">
+							<label for="date">Date</label>
+							<input type="text" class="form-control" name="date" aria-describedby="dateHelp" placeholder="01/01/0001">
 							<small id="dateHelp" class="form-text text-muted">Format is dd/mm/yyyy</small>
 						</div>
 						<div class="form-group">
-							<label for="news-author">Author</label>
-							<input type="text" class="form-control" name="news-author" placeholder="Nicolas Lehman">
+							<label for="author">Author</label>
+							<input type="text" class="form-control" name="news-author" placeholder="name">
 						</div>
 						<!--feature image uploader-->
 						<div class="form-group">
-							<label for="news-lead">Lead</label>
-							<textarea type="text" class="form-control" name="news-lead" aria-describedby="leadHelp" placeholder="Elon Musk confirmed to be from Mars, Moonbase looks kind of like Apple II headquarters."></textarea>
+							<label for="lead">Lead</label>
+							<textarea type="text" class="form-control" name="lead" aria-describedby="leadHelp" placeholder="Blah"></textarea>
 							<small id="dateHelp" class="form-text text-muted">Put the first couple sentences of your piece here.</small>
 						</div>
 						<div class="form-group">
-							<label for="news-content">Article</label>
-							<textarea type="text" class="form-control" name="news-content" aria-describedby="contentHelp" style="min-height: 200px;" placeholder="Elon Musk confirmed to be from Mars, Moonbase looks kind of like Apple II headquarters. 1000 more words"></textarea>
+							<label for="content">Article</label>
+							<textarea type="text" class="form-control" name="content" aria-describedby="contentHelp" style="min-height: 200px;" placeholder="Blah Blah Blah"></textarea>
 							<small id="contentHelp" class="form-text text-muted">Paste your entire piece here, including html tags</small>
 						</div>
 						<button class="btn btn-danger" type="submit" id="btn-post">Post</button>
