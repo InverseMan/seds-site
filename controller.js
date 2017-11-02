@@ -248,7 +248,7 @@ app.get('/man-made-martians-2', (req, res) => {
 });
 
 //database related pages and functions
-app.get('/posting' (req, res) => {
+app.get('/posting', (req, res) => {
 	res.render('db-submit', {
 		title: 'Submission Page'
 	});
