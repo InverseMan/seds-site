@@ -255,7 +255,20 @@ app.get('/posting', (req, res) => {
 });
 
 //submit new post
+app.post('/submit-news', (req, res) => {
+	MongoClient.connect(url, (err, database) => {
+		if (err)
+			return console.log(err);
+  		var db = database;
 
+  		db.collection('news').save(req.body, (err, result) => {
+    	if (err) 
+    		return console.log(err);
+
+    	console.log(req.body)
+    	res.redirect('/')
+	});
+});
 
 //Stripe payments
 app.post('/checkout', (req, res) => {
