@@ -45,6 +45,7 @@ var people = require("./assets/people.json");
 var groups = require("./assets/groups.json");
 var articles
 
+//test
 function getNews () {
 	MongoClient.connect(url, (err, database) => {
 		if (err)
