@@ -43,7 +43,6 @@ app.use('/bs', Express.static('node_modules/bootstrap/dist'));
 app.use('/files', Express.static('Files'));
 var people = require("./assets/people.json");
 var groups = require("./assets/groups.json");
-//var articles = require("./assets/news.json");
 
 var articles
 MongoClient.connect(url, (err, database) => {
@@ -52,7 +51,6 @@ MongoClient.connect(url, (err, database) => {
   	var db = database;
 	db.collection('news').find().toArray(function(err, results) {
   		articles = results;
-  		console.log(results);
 	});
 });
 
