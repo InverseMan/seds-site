@@ -43,10 +43,10 @@ app.use('/bs', Express.static('node_modules/bootstrap/dist'));
 app.use('/files', Express.static('Files'));
 var people = require("./assets/people.json");
 var groups = require("./assets/groups.json");
-var articles
 
 //test
 function getNews () {
+	var articles;
 	MongoClient.connect(url, (err, database) => {
 		if (err)
 			return console.log(err);
@@ -54,6 +54,7 @@ function getNews () {
 		db.collection('news').find().toArray(function(err, results) {
 			articles = results;
 		});
+		return articles;
 	});
 }
 
@@ -130,7 +131,7 @@ async function checkRoles(userid) {
 
 //Home page
 app.get('/', (req, res) => {
-	getNews();
+	var articles = getNews();
 	console.log(articles);
 	res.render('home', {
 		title: 'SEDS Canada',
@@ -216,7 +217,7 @@ app.get('/partners', (req, res) => {
 
 //News page
 app.get('/news', (req, res) => {
-	getNews();
+	var articles = getNews();
 	res.render('news', {
 		title: 'SEDS Canada News',
 		articles: articles
