@@ -47,7 +47,6 @@ var articles;
 
 //test
 function getNews () {
-	
 	MongoClient.connect(url, (err, database) => {
 		if (err)
 			return console.log(err);
@@ -55,8 +54,6 @@ function getNews () {
 		db.collection('news').find().toArray(function(err, results) {
 			articles = results;
 		});
-		console.log(articles);
-		return articles;
 	});
 }
 
@@ -133,7 +130,7 @@ async function checkRoles(userid) {
 
 //Home page
 app.get('/', (req, res) => {
-	articles = getNews();
+	getNews();
 	console.log(articles);
 	res.render('home', {
 		title: 'SEDS Canada',
@@ -219,7 +216,7 @@ app.get('/partners', (req, res) => {
 
 //News page
 app.get('/news', (req, res) => {
-	articles = getNews();
+	getNews();
 	res.render('news', {
 		title: 'SEDS Canada News',
 		articles: articles
