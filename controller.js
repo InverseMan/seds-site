@@ -130,11 +130,11 @@ async function checkRoles(userid) {
 
 //Home page
 app.get('/', (req, res) => {
-	getNews();
+	//getNews();
 	console.log(articles);
 	res.render('home', {
-		title: 'SEDS Canada',
-		article: articles[0]
+		title: 'SEDS Canada'//,
+		//article: articles[0]
 	});
 });
 
@@ -216,10 +216,10 @@ app.get('/partners', (req, res) => {
 
 //News page
 app.get('/news', (req, res) => {
-	getNews();
+	//getNews();
 	res.render('news', {
-		title: 'SEDS Canada News',
-		articles: articles
+		title: 'SEDS Canada News'//,
+		//articles: articles
 	});
 });
 
