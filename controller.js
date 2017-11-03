@@ -53,6 +53,7 @@ function getNews () {
 		var db = database;
 		db.collection('news').find().toArray(function(err, results) {
 			articles = results;
+			console.log(articles);
 		});
 	});
 }
