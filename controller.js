@@ -50,8 +50,7 @@ async function getNews () {
 	MongoClient.connect(url, (err, database) => {
 		if (err)
 			return console.log(err);
-		var db = database;
-		let articles = await db.collection('news').find().toArray();
+		let articles = await database.collection('news').find().toArray();
 		console.log("getNews");
 		console.log(articles);
 	});
