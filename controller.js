@@ -51,10 +51,7 @@ function getNews () {
 		if (err)
 			return console.log(err);
 		var db = database;
-		articles = db.collection('news').find().toArray(function(err, results) {
-			console.log(results.length);
-			return results;
-		});
+		articles = db.collection('news').find().toArray();
 		console.log("getNews");
 		console.log(articles);
 	});
