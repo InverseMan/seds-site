@@ -56,7 +56,7 @@ function getNews () {
 			return results;
 		});
 		console.log("getNews");
-		console.log(articles.length);
+		console.log(articles);
 	});
 }
 
