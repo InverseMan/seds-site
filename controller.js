@@ -47,10 +47,10 @@ var articles;
 
 //test
 function getNews () {
-	MongoClient.connect(url, (err, database) => {
+	MongoClient.connect(url, async (err, database) => {
 		if (err)
 			return console.log(err);
-		articles = database.collection('news').find().toArray();
+		let articles =  await database.collection('news').find().toArray();
 		console.log("getNews");
 		console.log(articles);
 	});
@@ -131,7 +131,7 @@ async function checkRoles(userid) {
 app.get('/', (req, res) => {
 	getNews();
 	console.log("home");
-	console.log(articles.length);
+	console.log(articles);
 	res.render('home', {
 		title: 'SEDS Canada'//,
 		//article: articles[0]
