@@ -55,7 +55,8 @@ function getNews () {
 			console.log(results.length);
 			return results;
 		});
-		console.log(articles);
+		console.log("getNews");
+		console.log(articles.length);
 	});
 }
 
@@ -133,6 +134,7 @@ async function checkRoles(userid) {
 //Home page
 app.get('/', (req, res) => {
 	getNews();
+	console.log("home");
 	console.log(articles);
 	res.render('home', {
 		title: 'SEDS Canada'//,
