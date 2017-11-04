@@ -54,6 +54,8 @@ function getNews () {
 		console.log("getNews");
 		console.log(articles.length);
 	});
+	console.log("getNewsout");
+	console.log(articles.length);
 }
 
 //setup passport
