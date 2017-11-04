@@ -51,7 +51,7 @@ async function getNews () {
 		if (err)
 			return console.log(err);
 		var db = database;
-		articles = await db.collection('news').find().toArray();
+		let articles = await db.collection('news').find().toArray();
 		console.log("getNews");
 		console.log(articles);
 	});
