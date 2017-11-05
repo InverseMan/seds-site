@@ -47,12 +47,12 @@ var articles;
 
 //test
 async function getNews () {
-	articles = MongoClient.connect(url, async (err, database) => {
+	MongoClient.connect(url, async (err, database) => {
 		if (err)
 			return console.log(err);
 		let results = await database.collection('news').find().toArray();
 		console.log(results.length);
-		return results;
+		articles = results;
 	});
 	console.log("getNews");
 	console.log(articles);
