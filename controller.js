@@ -46,7 +46,7 @@ var groups = require("./assets/groups.json");
 var articles;
 
 //test
-async function getNews () {
+function getNews () {
 	MongoClient.connect(url, async (err, database) => {
 		if (err)
 			return console.log(err);
@@ -279,7 +279,7 @@ app.post('/submit-news', (req, res) => {
 		var db = database;
 
 		db.collection('news').save(req.body, (err, result) => {
-			if (err) 
+			if (err)
 				return console.log(err);
 
 			console.log(req.body);
