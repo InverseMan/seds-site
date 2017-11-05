@@ -52,7 +52,7 @@ async function getNews () {
 			return console.log(err);
 		results = database.collection('news').find().toArray();
 		console.log("getNews");
-		console.log(articles.length);
+		console.log(results.length);
 		return results;
 	});
 	console.log("getNews");
