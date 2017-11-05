@@ -46,7 +46,7 @@ var groups = require("./assets/groups.json");
 var articles;
 
 //test
-function getNews () {
+async function getNews () {
 	MongoClient.connect(url, async (err, database) => {
 		if (err)
 			return console.log(err);
