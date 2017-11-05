@@ -46,13 +46,14 @@ var groups = require("./assets/groups.json");
 var articles;
 
 //test
-async function getNews () {
+function getNews () {
 	MongoClient.connect(url, async (err, database) => {
 		if (err)
 			return console.log(err);
 		let results = await database.collection('news').find().toArray();
 		console.log(results.length);
 		articles = results;
+		console.log(articles.length);
 	});
 	console.log("getNews");
 	console.log(articles);
