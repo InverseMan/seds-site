@@ -49,7 +49,7 @@ var articles;
 
 //test
 function getNews () {
-	mongoclient.open((err, mongoclient) => {
+	mongoclient.open(function (err, mongoclient) {
 		var db = mongoclient.db("test");
 		articles = db.collection('news').find().toArray();
 		mongoclient.close();
