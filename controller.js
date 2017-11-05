@@ -12,8 +12,6 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var ObjectId = require('mongodb').ObjectID;
 var url = 'mongodb://localhost:27017/test';
-var server = require('mongodb').Server;
-var mongoclient = new MongoClient(new server("localhost", 27017), {native_parser: true});
 
 //discord bot for spaceorb
 var Eris = require('eris');
@@ -49,11 +47,14 @@ var articles;
 
 //test
 function getNews () {
-	mongoclient.open(function (err, mongoclient) {
-		var db = mongoclient.db("test");
-		articles = db.collection('news').find().toArray();
-		mongoclient.close();
+	MongoClient.connect(url, async (err, database) => {
+		if (err)
+			return console.log(err);
+		let results = await database.collection('news').find().toArray();
+		console.log(results.length);
+		articles = results;
 	});
+	console.log("getNews");
 	console.log(articles);
 }
 
@@ -132,6 +133,7 @@ async function checkRoles(userid) {
 app.get('/', (req, res) => {
 	getNews();
 	console.log("home");
+	console.log(articles);
 	res.render('home', {
 		title: 'SEDS Canada'//,
 		//article: articles[0]
