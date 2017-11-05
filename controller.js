@@ -12,7 +12,8 @@ var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
 var ObjectId = require('mongodb').ObjectID;
 var url = 'mongodb://localhost:27017/test';
-var mongoclient = new MongoClient(new Server("localhost", 27017), {native_parser: true});
+var server = require('mongodb').Server;
+var mongoclient = new MongoClient(new server("localhost", 27017), {native_parser: true});
 
 //discord bot for spaceorb
 var Eris = require('eris');
