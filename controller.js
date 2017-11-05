@@ -45,7 +45,7 @@ var people = require("./assets/people.json");
 var groups = require("./assets/groups.json");
 var articles;
 
-//test
+/*/test
 function getNews () {
 	MongoClient.connect(url, async (err, database) => {
 		if (err)
@@ -56,7 +56,7 @@ function getNews () {
 	});
 	console.log("getNews");
 	console.log(articles);
-}
+}*/
 
 //setup passport
 passport.serializeUser(function(user, done) {
@@ -131,12 +131,16 @@ async function checkRoles(userid) {
 
 //Home page
 app.get('/', (req, res) => {
-	getNews();
-	console.log("home");
-	console.log(articles);
-	res.render('home', {
-		title: 'SEDS Canada'//,
-		//article: articles[0]
+	MongoClient.connect(url, async (err, database) => {
+		if (err)
+			return console.log(err);
+		let results = await database.collection('news').find().toArray();
+		console.log(results.length);
+		articles = results;
+		res.render('home', {
+			title: 'SEDS Canada',
+			article: articles[0]
+		});
 	});
 });
 
