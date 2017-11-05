@@ -212,7 +212,7 @@ app.get('/news', (req, res) => {
 		MongoClient.connect(url, async (err, database) => {
 		if (err)
 			return console.log(err);
-		let results = await database.collection('news').find().toArray();
+		let results = await database.collection('news').find().sort({date:-1}).toArray();
 		articles = results;
 
 		res.render('news', {
