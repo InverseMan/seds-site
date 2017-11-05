@@ -51,8 +51,6 @@ async function getNews () {
 		if (err)
 			return console.log(err);
 		results = database.collection('news').find().toArray();
-		console.log("getNews");
-		console.log(results.length);
 		return results;
 	});
 	console.log("getNews");
