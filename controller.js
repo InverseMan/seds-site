@@ -179,8 +179,15 @@ app.get('/marssat', (req, res) => {
 
 //Opportunities page
 app.get('/opportunities', (req, res) => {
-	res.render('opportunities', {
-		title: 'Opportunities at SEDS Canada'
+	MongoClient.connect(url, async (err, database) => {
+		if (err)
+			return console.log(err);
+		let results = await database.collection('opportunities').find().toArray();
+		var ops = results;
+		res.render('opportunities', {
+			title: 'Opportunities at SEDS Canada',
+			ops: ops,
+		});
 	});
 });
 
@@ -278,7 +285,22 @@ app.post('/submit-news', (req, res) => {
 		db.collection('news').save(req.body, (err, result) => {
 			if (err)
 				return console.log(err);
-			res.redirect('/');
+			res.redirect('/posting');
+		});
+	});
+});
+
+//submit to spaceorb
+app.post('/submit-op', (req, res) => {
+	MongoClient.connect(url, (err, database) => {
+		if (err)
+			return console.log(err);
+		var db = database;
+
+		db.collection('opportunities').save(req.body, (err, result) => {
+			if (err)
+				return console.log(err);
+			res.redirect('/posting');
 		});
 	});
 });

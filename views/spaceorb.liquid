@@ -10,4 +10,25 @@
 
 <p class="lead">Under construction, for SpaceORB opportunities see the #opportunities channel on <a href="https://discord.gg/aMyGDkm" class="text-danger">Discord</a>. An update will be posted on Discord once this part of the site is ready!</p>
 
+{% for opportunity in ops%}
+<div class="row">
+	<div class="col-md-3"></div>
+	<div class="col-md-6" align="center">
+		<div class="card">
+			<div class="card-body">
+				<h4 class="card-title">{{opportunity.title}}</h4>
+				<h6 class="card-subtitle mb-2 text-muted">Deadline: {{opportunity.deadline}}</h6>
+				<div style="display: inline;">
+					<p class="card-text float-left">Who: {{opportunity.who}}</p>
+					<p class="card-text float-right">Type: {{opportunity.type}}</p>
+				</div>
+				<p class="card-text">{{opportunity.description}}</p>
+				<a href="{{opportunity.link}}" class="card-link text-danger">{{opportunity.link}}</a>
+			</div>
+		</div>
+	</div>
+</div>
+<br />
+{% endfor %}
+
 {% endblock %}
