@@ -184,6 +184,7 @@ app.get('/opportunities', (req, res) => {
 			return console.log(err);
 		let results = await database.collection('opportunities').find().toArray();
 		var ops = results;
+		console.log(ops);
 		res.render('opportunities', {
 			title: 'Opportunities at SEDS Canada',
 			ops: ops,
