@@ -47,12 +47,39 @@
 						<input type="hidden" name="date" value="<script>new Date()</script>">
 						<button class="btn btn-danger" type="submit" id="btn-post">Post</button>
 					</form>
-					<div class="alert alert-primary" role="alert" class="news-report">
-					</div>
 				</div>
 			</div>
 			<div class="tab-pane fade mt-4" id="spaceorb" role="tabpanel" aria-labelledby="spaceorb-tab">
-				
+				<div class="card">
+					<form class="card-body" action="/submit-op" method="POST">
+						<div class="form-group">
+							<label for="title">Title</label>
+							<input type="text" class="form-control" name="title" placeholder="title">
+						</div>
+						<div class="form-group">
+							<label for="link">Link</label>
+							<input type="text" class="form-control" name="link" placeholder="link">
+						</div>
+						<div class="form-group">
+							<label for="who">Who</label>
+							<input type="text" class="form-control" name="who" placeholder="target">
+						</div>
+						<div class="form-group">
+							<label for="lead">Type</label>
+							<input type="text" class="form-control" name="type" placeholder="type">
+						</div>
+						<div class="form-group">
+							<label for="lead">Deadline</label>
+							<input type="text" class="form-control" name="deadline" placeholder="dd/mm/yyyy">
+						</div>
+						<div class="form-group">
+							<label for="content">Description</label>
+							<textarea type="text" class="form-control" name="description" style="min-height: 200px;" placeholder="Optionally a short description"></textarea>
+						</div>
+						<input type="hidden" name="date" value="<script>new Date()</script>">
+						<button class="btn btn-danger" type="submit" id="btn-post">Post</button>
+					</form>
+				</div>
 			</div>
 		</div>
 	</div>
