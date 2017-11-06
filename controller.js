@@ -94,8 +94,18 @@ app.get('/logout', function(req, res) {
 app.get('/spaceorb', checkAuth, async (req, res) => {
 	var rolecheck = await checkRoles(req.user.id);
 	if(rolecheck != -1) {
-		res.render('spaceorb', {
-			title: 'SpaceORB'
+		MongoClient.connect(url, async (err, database) => {
+			if (err)
+				return console.log(err);
+			let results = await database.collection('opportunities').find().toArray();
+			var ops = results;
+			
+			console.log(ops);
+			
+			res.render('spaceorb', {
+				title: 'SpaceORB',
+				ops: ops
+			});
 		});
 	} else {
 		res.redirect('missing-role');
@@ -177,18 +187,10 @@ app.get('/marssat', (req, res) => {
 
 //end subpages
 
-//Opportunities page
+//Opportunities page NOT IMPLEMENTED
 app.get('/opportunities', (req, res) => {
-	MongoClient.connect(url, async (err, database) => {
-		if (err)
-			return console.log(err);
-		let results = await database.collection('opportunities').find().toArray();
-		var ops = results;
-		console.log(ops);
-		res.render('opportunities', {
-			title: 'Opportunities at SEDS Canada',
-			ops: ops,
-		});
+	res.render('opportunities', {
+		title: 'Opportunities at SEDS Canada'
 	});
 });
 
