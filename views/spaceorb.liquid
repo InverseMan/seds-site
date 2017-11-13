@@ -8,7 +8,7 @@
 <h1 class="display-4" align="center">SpaceORB</h1>
 <br />
 
-<p class="lead">Under construction, for SpaceORB opportunities see the #opportunities channel on <a href="https://discord.gg/aMyGDkm" class="text-danger">Discord</a>. An update will be posted on Discord once this part of the site is ready!</p>
+<p class="lead">Welcome to the Space Opportunities and Resource Bulletin</p>
 
 {% for opportunity in ops%}
 <div class="row">
@@ -18,7 +18,7 @@
 			<div class="card-body">
 				<h4 class="card-title">{{opportunity.title}}</h4>
 				<h6 class="card-subtitle mb-2 text-muted">Deadline: {{opportunity.deadline}}</h6>
-				<div style="display: inline;">
+				<div style="display: inline;">	
 					<p class="card-text float-left">Who: {{opportunity.who}}</p>
 					<p class="card-text float-right">Type: {{opportunity.type}}</p>
 				</div>

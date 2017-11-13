@@ -69,7 +69,8 @@ passport.use(new Strategy({
 app.use(session({
 	secret: '3s8p8a4c7e2i3s3g8r9e2a5t9',
 	resave: false,
-	saveUninitialized: false
+	saveUninitialized: false,
+	cookie: {maxAge: 60000}
 }));
 app.use(passport.initialize());
 app.use(passport.session());
