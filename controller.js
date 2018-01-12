@@ -100,9 +100,9 @@ app.get('/spaceorb', checkAuth, async (req, res) => {
 				return console.log(err);
 			let results = await database.collection('opportunities').find().toArray();
 			var ops = results;
-			
+
 			console.log(ops);
-			
+
 			res.render('spaceorb', {
 				title: 'SpaceORB',
 				ops: ops
@@ -268,7 +268,13 @@ app.get('/man-made-martians', (req, res) => {
 
 app.get('/man-made-martians-2', (req, res) => {
 	res.render('man-made-martians-2', {
-		title: 'Man Made Martians-2'
+		title: 'Man Made Martians 2'
+	});
+});
+
+app.get('/terraforming-mars', (req, res) => {
+	res.render('terraforming-mars', {
+		title: 'Terraforming Mars'
 	});
 });
 
