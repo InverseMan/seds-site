@@ -322,7 +322,7 @@ app.post('/checkout', (req, res) => {
 	stripe.charges.create({
 		amount: 1200,
 		currency: "cad",
-		description: "SEDS - EEDS Canada Student Membership",
+		description: "SEDS - EEDS Canada Student Membership " + req.body.stripeEmail,
 		source: token,
 	}, function(err, charge) {
 		res.render('confirmation', {
